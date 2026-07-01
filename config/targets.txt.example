@@ -1,0 +1,11 @@
+# NTFS ACL Audit - target list
+#
+# One share/folder root per line. Lines starting with # are ignored.
+# The orchestrator (99-run-share.ps1) rewrites this file automatically
+# with "offender" paths after a PRE audit pass, so treat it as working
+# state, not a permanent record.
+#
+# Copy this file to targets.txt (00-init-folders.ps1 does this for you
+# automatically on first run) and edit it with your real path(s).
+
+D:\Path\To\Your\Share
