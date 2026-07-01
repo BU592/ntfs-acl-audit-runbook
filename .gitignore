@@ -1,0 +1,14 @@
+# Real target list may contain your internal share paths - keep the
+# .example checked in instead and let 00-init-folders.ps1 create this
+# for you locally.
+config/targets.txt
+
+# Generated audit output (CSVs, XML snapshots, logs) - regenerate by
+# running the scripts, don't commit it.
+artifacts/*
+!artifacts/.gitkeep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
